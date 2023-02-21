@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta description="JS Exercises - Ch 4 - Pt II">
+    <meta name="author" content="Gemini Powell">
+    <link rel="stylesheet" href="css/style.css">
+    <title>JS Exercises - Class 22 - Part Two!</title>
+</head>
+<body>
+    <div id="home">
+        <a href="#home"><h1>JS Exercises - Javascript.info</h1></a>
+        <p>These are the exercises from Javascript.info.</p>
+        <p>Click on the exercise you want to see.</p>
+        <ul>
+            <li><a href="#one">Camelize</a></li>
+            <li><a href="#two">Filter</a></li>
+            <li><a href="#three">Filter in Place</a></li>
+            <li><a href="#four">Sort Decreasing</a></li>
+            <li><a href="#five">Copy and Sort</a></li>
+            <li><a href="#six">Calculator Time</a></li>
+            <li><a href="#seven">Map to Names</a></li>
+            <li><a href="#eight">Map to Objects</a></li>
+            <li><a href="#nine">Sort by Age</a></li>
+            <li><a href="#ten">Shuffle an Array</a></li>
+            <li><a href="#eleven">Get Average Age</a></li>
+            <li><a href="#twelve">Unique Array Members</a></li>
+            <li><a href="#thirteen">Object Keys</a></li>
+        </ul>
+    </div>
+    <div id="one">
+        <h1>Camelize</h1>
+        <p>Enter a string with dashes. Watch it turn into a camelCase string!</p>
+        <div id="ex1">
+            <input type="text" id="string" placeholder="String">
+            <button id="btn5">Submit</button>
+            <div>
+                <p>Camelized String:</p>
+                <h3 id="output5"></h3>
+            </div>
+        </div>
+    </div>
+    <div id="two">
+        <h1>Filter</h1>
+        <p>Enter an array of numbers. Watch it filter out all numbers less than 5!</p>
+        <div id="ex2">
+            <input type="text" id="array5" placeholder="Array">
+            <button id="btn6">Submit</button>
+            <div>
+                <p>Filtered Array:</p>
+                <h3 id="output6"></h3>
+            </div>
+        </div>
+    </div>
+    <div id="three">
+        <h1>Filter in Place</h1>
+        <p>Enter an array of numbers. Watch it filter out all numbers less than 5!</p>
+        <div id="ex3">
+            <input type="text" id="array6" placeholder="Array">
+            <button id="btn7">Submit</button>
+            <div>
+                <p>Filtered Array:</p>
+                <h3 id="output7"></h3>
+            </div>
+        </div>
+    </div>
+    <div id="four">
+        <h1>Sort Decreasing</h1>
+        <p>Enter an array of numbers. Watch it sort in descending order!</p>
+        <div id="ex4">
+            <input type="text" id="array7" placeholder="Array">
+            <button id="btn8">Submit</button>
+            <div>
+                <p>Sorted Array:</p>
+                <h3 id="output8"></h3>
+            </div>
+        </div>
+    </div>
+    <div id="five">
+        <h1>Copy and Sort</h1>
+        <p>Enter an array of numbers. Watch it copy and sort in ascending order!</p>
+        <div id="ex5">
+            <input type="text" id="array8" placeholder="Array">
+            <button id="btn9">Submit</button>
+            <div>
+                <p>Sorted Array:</p>
+                <h3 id="output9"></h3>
+            </div>
+        </div>
+    </div>
+    <div id="six">
+        <h1>Calculator Time</h1>
+        <p>Enter two numbers and an operator. Watch it calculate!</p>
+        <div id="ex6">
+            <input type="text" id="num1" placeholder="Number 1">
+            <input type="text" id="num2" placeholder="Number 2">
+            <input type="text" id="operator" placeholder="Operator">
+            <button id="btn10">Submit</button>
+            <div>
+                <p>Result:</p>
+                <h3 id="output10"></h3>
+            </div>
+        </div>
+    </div>
+    <div id="seven">
+        <h1>Map to Names</h1>
+        <p>Enter an array of objects. Watch it map to an array of names!</p>
+        <div id="ex7">
+            <input type="text" id="array9" placeholder="Array">
+            <button id="btn11">Submit</button>
+            <div>
+                <p>Names Array:</p>
+                <h3 id="output11"></h3>
+            </div>
+        </div>
+    </div>
+    <div id="eight">
+        <h1>Map to Objects</h1>
+        <p>Enter an array of names. Watch it map to an array of objects!</p>
+        <div id="ex8">
+            <input type="text" id="array10" placeholder="Array">
+            <button id="btn12">Submit</button>
+            <div>
+                <p>Objects Array:</p>
+                <h3 id="output12"></h3>
+            </div>
+        </div>
+    </div>
+    <div id="nine">
+        <h1>Sort by Age</h1>
+        <p>Enter an array of objects. Watch it sort by age!</p>
+        <div id="ex9">
+            <input type="text" id="array11" placeholder="Array">
+            <button id="btn13">Submit</button>
+            <div>
+                <p>Sorted Array:</p>
+                <h3 id="output13"></h3>
+            </div>
+        </div>
+    </div>
+    <div id="ten">
+        <h1>Shuffle an Array</h1>
+        <p>Enter an array of numbers. Watch it shuffle!</p>
+        <div id="ex10">
+            <input type="text" id="array12" placeholder="Array">
+            <button id="btn14">Submit</button>
+            <div>
+                <p>Shuffled Array:</p>
+                <h3 id="output14"></h3>
+            </div>
+        </div>
+    </div>
+    <div id="eleven">
+        <h1>Get Average Age</h1>
+        <p>Enter an array of objects. Watch it get the average age!</p>
+        <div id="ex11">
+            <input type="text" id="array13" placeholder="Array">
+            <button id="btn15">Submit</button>
+            <div>
+                <p>Average Age:</p>
+                <h3 id="output15"></h3>
+            </div>
+        </div>
+    </div>
+    <div id="twelve">
+        <h1>Unique Array Members</h1>
+        <p>Enter an array of numbers. Watch it get the unique members!</p>
+        <div id="ex12">
+            <input type="text" id="array14" placeholder="Array">
+            <button id="btn16">Submit</button>
+            <div>
+                <p>Unique Members:</p>
+                <h3 id="output16"></h3>
+            </div>
+        </div>
+    </div>
+    <div id="thirteen">
+        <h1>Group by Property</h1>
+        <p>Enter an array of objects. Watch it group by property!</p>
+        <div id="ex13">
+            <input type="text" id="array15" placeholder="Array">
+            <button id="btn17">Submit</button>
+            <div>
+                <p>Grouped Array:</p>
+                <h3 id="output17"></h3>
+            </div>
+        </div>
+    </div>
+    <script src="js/main2.js"></script>
+</body>
+</html>
